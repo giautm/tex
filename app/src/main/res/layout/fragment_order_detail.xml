@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="vn.tiki.tex.OrderDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1.5"
+                android:text="Mã đơn hàng"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/text_size_order_detail"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_order_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size_order_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1.5"
+                android:text="Tên người nhận"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/text_size_order_detail"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textview_recipient_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size_order_detail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1.5"
+                android:text="Địa chỉ giao"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/text_size_order_detail"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textview_delivery_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                android:text="Lầu 3, Tòa nhà Lữ Gia, 70 Lữ Gia, Phường 15, Quận 11, Hồ Chí Minh, VN"
+                android:textSize="@dimen/text_size_order_detail" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1.5"
+                android:text="Cần phải thu"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/text_size_order_detail"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textview_receivables"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                android:textSize="@dimen/text_size_order_detail" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_delivered"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Giao thành công"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_cancelled"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Huỷ giao hàng"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

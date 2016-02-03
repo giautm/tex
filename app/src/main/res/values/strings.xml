@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Tex</string>
+    <string name="title_activity_main">Danh sách đơn hàng</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Cài đặt</string>
+    <string name="text_order_code">#%1$s</string>
+    <string name="button_call">Gọi</string>
+    <string name="button_calls">Gọi (%1$d)</string>
+    <string name="button_send">Gửi</string>
+    <string name="button_sends">Gửi (%1$d)</string>
+    <string name="title_activity_login">Đăng nhập</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Địa chỉ email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Đăng nhâp</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_user_does_not_exist">Tài khoảng không tồn tại</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="textview_paid">Đã thanh toán</string>
+    <string name="title_activity_order_detail">Thông tin đơn hàng</string>
+    <string name="toast_message_update_order_complete">Cập nhật đơn hàng thành công</string>
+    <string name="toast_message_update_order_failed">Cập nhật đơn hàng thất bại</string>
+    <string name="title_activity_splash">Vận chuyển Tiki</string>
+    <string name="textview_not_found">KHÔNG CÓ THÔNG TIN</string>
+    <string name="dialog_cause_title">Huỷ giao hàng</string>
+    <string name="message_cause_question">Vì sao đơn hàng của \"%1$s\" không giao được?</string>
+    <string name="button_confirmed">Xác nhận</string>
+    <string name="button_cancelled">Quay lại</string>
+    <string name="title_transport_current">Cần phải giao</string>
+    <string name="title_transport_updated">Đã cập nhật</string>
+    <string name="title_transport_archive">Giao thất bại</string>
+    <string name="title_transport_success">Giao thành công</string>
+    <string name="title_activity_settings">Cài đặt</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="message_order_detail_changed">Thông tin đơn hàng vừa thay đổi</string>
+    <string name="pref_header_account">Tài khoản</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

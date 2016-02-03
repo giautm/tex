@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="Giao nhận"
+        android:inputType="textCapWords"
+        android:key="account_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Tên hiển thị" />
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="account_password"
+        android:summary="Thay đổi mật khẩu đăng nhập"
+        android:title="Mật khẩu" />
+    <Preference
+        android:key="account_logout"
+        android:summary="Nhấp vào đây để đăng xuất"
+        android:title="Đăng xuất" />
+
+</PreferenceScreen>

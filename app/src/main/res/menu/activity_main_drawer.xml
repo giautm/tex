@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:title="Danh sách đơn hàng">
+        <item
+            android:id="@+id/nav_transport_current"
+            android:title="Đang vận chuyển" />
+        <item
+            android:id="@+id/nav_transport_updated"
+            android:title="Đã cập nhật" />
+        <item
+            android:id="@+id/nav_transport_success"
+            android:title="Giao thành công" />
+        <item
+            android:id="@+id/nav_transport_archive"
+            android:title="Giao thất bại" />
+    </group>
+</menu>
