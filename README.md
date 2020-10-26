@@ -5,7 +5,7 @@ T-Express
 
 ## Danh sách nhân viên vận chuyển
 
-```json
+```js
 "deliveryMan": {
     "$user-id": {
         "name": String,           // Tên nhân viên giao nhận
@@ -20,7 +20,7 @@ T-Express
 
 ## Danh sách các đơn hàng
 
-```json
+```js
 "orders": {
     "$order-code": {
         "orderCode": String,       // Mã đơn hàng
@@ -39,7 +39,7 @@ T-Express
 
 ## Chuyến đi giao của mỗi nhân viên vận chuyển
 
-```json
+```js
 "transport": {
     "$user-id": {
         "current": { // Danh sách những đơn hàng mới, chờ đi giao.
